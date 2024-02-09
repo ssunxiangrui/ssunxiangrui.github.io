@@ -1,0 +1,277 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>sxrのblog</title><meta name="author" content="7_DK"><meta name="copyright" content="7_DK"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta property="og:type" content="website">
+<meta property="og:title" content="sxrのblog">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="sxrのblog">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/1053567.png">
+<meta property="article:author" content="7_DK">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/1053567.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'sxrのblog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-02-09 18:51:06'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><style type="text/css"> #universe {  display: block; position: fixed; margin: 0; padding: 0; border: 0; outline: 0; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; } </style><link rel="stylesheet" href="/css/ziti.css"><link rel="stylesheet" href="/css/font.css"><meta name="generator" content="Hexo 7.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/1053567.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/Tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/Categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/tupian.png')"><nav id="nav"><span id="blog-info"><a href="/" title="sxrのblog"><span class="site-name">sxrのblog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/Tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/Categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">sxrのblog</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2024/02/07/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%85%AD%E8%AF%BE%EF%BC%9A%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9DP-%E5%AD%90%E9%9B%86%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第六课：状态压缩DP/子集枚举 学习笔记"><img class="post-bg" src="https://cdn.luogu.com.cn/upload/image_hosting/vr73g97w.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第六课：状态压缩DP/子集枚举 学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/02/07/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%85%AD%E8%AF%BE%EF%BC%9A%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9DP-%E5%AD%90%E9%9B%86%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第六课：状态压缩DP/子集枚举 学习笔记">【提高组】第六课：状态压缩DP/子集枚举 学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-07T08:17:46.000Z" title="发表于 2024-02-07 16:17:46">2024-02-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/02/07/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%85%AD%E8%AF%BE%EF%BC%9A%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9DP-%E5%AD%90%E9%9B%86%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">第六课：状态压缩DP&#x2F;子集枚举第六课：状态压缩DP&#x2F;子集枚举
+A：环游世界环游世界
+首先，这很明显是一个无向图
+这样，我们需要的信息就是：
+
+已走过的点集
+当前停留在哪里
+当前的最小花费
+
+知道了这三个信息之后，转移时只要枚举一个未走过的点，从当前的位置转移过去，再把花费加上即可
+在做最短路是通常不会主动去构造一个环，而本题要求从起点出发，再回到起点
+我们可以先找到一个点 $T$ ，求出起点到 $T$ 的最短路，最后再单独加上 $T$到起点的距离
+表示已走过的集合就可以用状态压缩
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253#include &lt;cstdio&gt;#include &lt;cstring&gt;#define min(a, b) (a&lt;b?a:b)//mp[i][j]表示i到j的距离int mp[12][12];//dp[i][j]表示经过了i状态的点集，当前停留在j的最小代价int dp[ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/05/P10112-GESP202312-%E5%85%AB%E7%BA%A7-%E5%A5%96%E5%93%81%E5%88%86%E9%85%8D-%E9%A2%98%E8%A7%A3/" title="P10112 [GESP202312 八级] 奖品分配 题解">P10112 [GESP202312 八级] 奖品分配 题解</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-05T03:10:28.000Z" title="发表于 2024-02-05 11:10:28">2024-02-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%A2%98%E8%A7%A3/">题解</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/02/05/P10112-GESP202312-%E5%85%AB%E7%BA%A7-%E5%A5%96%E5%93%81%E5%88%86%E9%85%8D-%E9%A2%98%E8%A7%A3/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">题目传送门
+这道题目总的来说代码量不多，但是思维很麻烦。
+题目说，所有的奖品加起来正好等于 $n$ 或等于 $n+1$。
+那么，就可以进行分类讨论。
+第一种情况：奖品数正好等于 $n$。
+这种情况下就是说每个同学正好只拿一个奖品。
+假设有 $10$ 名同学，奖品有 $3$ 种，每种奖品的个数分别为 $3,2,5$。
+首先，我们要从 $10$ 个人中选择 $5$ 个人拿第三种奖品，那么组合情况数 $C_{10}^{5}$。
+接下来，从剩下的 $5$ 个人中选择 $2$ 个人拿第二种奖品，那么组合情况数为 $C_{5}^{2}$。
+那么最后只剩下 $3$ 个人，只能拿第一种奖品，即组合情况数位 $C_{3}^{3}$。
+这样的选取方法结果就是 $C_{10}^{5}\times C_{5}^{2}\times C_{3}^{3}&#x3D;2520$。
+如果换一种顺序取选取奖品，假如说从前往后取，先取第一种奖品，再取第二种奖品，最后取第三种奖品，结果就是 $C_{10}^{3}\times C_{7}^{2}\times C_{5}^{5}&#x3D;2520$。
+两个式子的结果相等的，这 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/05/P10109-GESP202312-%E5%85%AD%E7%BA%A7-%E5%B7%A5%E4%BD%9C%E6%B2%9F%E9%80%9A-%E9%A2%98%E8%A7%A3/" title="P10109 [GESP202312 六级] 工作沟通 题解">P10109 [GESP202312 六级] 工作沟通 题解</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-05T03:10:18.000Z" title="发表于 2024-02-05 11:10:18">2024-02-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%A2%98%E8%A7%A3/">题解</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/02/05/P10109-GESP202312-%E5%85%AD%E7%BA%A7-%E5%B7%A5%E4%BD%9C%E6%B2%9F%E9%80%9A-%E9%A2%98%E8%A7%A3/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">题目传送门  
+每次询问输出多个点的编号最大的公共祖先，本质上就是 LCA 问题。  
+这里提供一种思路：把每个点的祖先全部求出来，然后用数组标记，如果这个点被标记了 $m$ 次，那就说明这个点是所有员工的公共祖先。  
+最后输出最大值即可。  
+因为这道题的数据比较小，所以这样做的时间复杂度是完全可行的。  
+12345678910111213141516171819202122232425262728293031323334353637383940#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 100010;int fa[N], vis[N];void change(int x) &#123;    vis[x]++;//自己能管理自己，即自己是自己的祖先    while(x != 0) &#123;        x = fa[x];//一直向上找祖先        vis[x]++;//记录这个点作为祖先的个数    &#125;&#125;int main() &#123;    int n;  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/02/04/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%94%E8%AF%BE%EF%BC%9A%E5%8A%A8%E8%A7%84-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第五课：动规 学习笔记"><img class="post-bg" src="https://cdn.luogu.com.cn/upload/image_hosting/q9g2dez8.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第五课：动规 学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/02/04/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%94%E8%AF%BE%EF%BC%9A%E5%8A%A8%E8%A7%84-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第五课：动规 学习笔记">【提高组】第五课：动规 学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-04T10:46:34.000Z" title="发表于 2024-02-04 18:46:34">2024-02-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/02/04/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%94%E8%AF%BE%EF%BC%9A%E5%8A%A8%E8%A7%84-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">第五课：动规第五课：动规
+A：最少末尾零最少末尾零
+记录 $2$ 最少的路径的 $2$ 的个数和 $5$ 最少的路径的 $5$ 的个数，最后取较小值即可
+注意特判数组中有 $0$ 的情况
+$dp_{ij0}$ 表示走到 $i$ 行 $j$ 列 $2$ 的最少个数
+$dp_{ij1}$ 表示走到 $i$ 行 $j$ 列 $5$ 的最少个数
+状态转的时候可以先转移第一行和第一列，这样减少思考
+然后其余的状态由上面和左面转移即可
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859#include&lt;bits/stdc++.h&gt;using namespace std;const int N = 1010;int dp[N][N][2];int lst[N][N][2];int flag = -1,n,x;int mp[N][N][2];char s[N*5];int tot;int main() &#123;    s ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/01/28/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%9B%9B%E8%AF%BE%EF%BC%9A%E4%B8%89%E5%88%86-01%E5%88%86%E6%95%B0%E8%A7%84%E5%88%92-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第四课：三分/01分数规划 学习笔记"><img class="post-bg" src="https://cdn.luogu.com.cn/upload/image_hosting/okruvjkq.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第四课：三分/01分数规划 学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/01/28/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%9B%9B%E8%AF%BE%EF%BC%9A%E4%B8%89%E5%88%86-01%E5%88%86%E6%95%B0%E8%A7%84%E5%88%92-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第四课：三分/01分数规划 学习笔记">【提高组】第四课：三分/01分数规划 学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-28T06:18:45.000Z" title="发表于 2024-01-28 14:18:45">2024-01-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/01/28/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%9B%9B%E8%AF%BE%EF%BC%9A%E4%B8%89%E5%88%86-01%E5%88%86%E6%95%B0%E8%A7%84%E5%88%92-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">三分&#x2F;01分数规划第四课：三分&#x2F;01分数规划
+A：点到线段的距离点到线段的距离
+三分通过观察可以发现，点 $P$ 到线段 $AB$ 的距离呈 “U” 字形
+接下来只用再这个 “U” 字形种寻找最小的点即可
+首先设最左边的端点为 $l$ ，最右边的端点为 $r$ 
+第一次滑动到三分之一和三分之二位置，设三分之一位置为 $mid1$ ，三分之二位置为 $mid2$  
+假如 $mid1&lt;mid2$ ，就说明 $mid2$ 到 $r$ 不会存在最小值，这样每次就会变少三分之一
+相反，如果 $mid2&lt;mid2$，就说明 $l$ 到 $mid1$ 不会存在最小值
+要使得答案始终都在 $mid1$ 和 $mid2$ 之间，这样等到它们足够接近时，就可以找到答案
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546#include &lt;bits/stdc++.h&gt;using namespace std;const double eps = 1e ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/01/26/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%B8%89%E8%AF%BE%EF%BC%9ASTL-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第三课：STL 学习笔记"><img class="post-bg" src="https://cdn.luogu.com.cn/upload/image_hosting/g7fuf8ll.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第三课：STL 学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/01/26/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%B8%89%E8%AF%BE%EF%BC%9ASTL-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第三课：STL 学习笔记">【提高组】第三课：STL 学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-26T08:38:13.000Z" title="发表于 2024-01-26 16:38:13">2024-01-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/01/26/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%B8%89%E8%AF%BE%EF%BC%9ASTL-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">STL第三课：STL
+A：水果店水果店
+考察 map 的使用
+map 可以将一个数据类型映射到另一个数据类型
+map 的定义123456789101112#include &lt;bits/stdc++.h&gt;using namespace std;int main() &#123;    map&lt;int, int&gt; mp;    mp[10] = 5;    mp[20] = 1;    mp[15] = 2;    mp[1000000000] = 4;    cout &lt;&lt; mp.size() &lt;&lt; endl;    return 0;&#125;
+
+以上代码会输出 $3$
+map 的遍历迭代器因为 map 是一种容器，所以只能用迭代器进行访问
+123for (map&lt;int, int&gt;::iterator it = mp.begin(); it != mp.end(); it++) &#123;    cout &lt;&lt; it-&gt;first &lt;&lt; &quot; &quot; &lt;&lt; it-& ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/01/24/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%8C%E8%AF%BE%EF%BC%9A%E8%B4%AA%E5%BF%83-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第二课：贪心 学习笔记"><img class="post-bg" src="https://cdn.luogu.com.cn/upload/image_hosting/4hojehmt.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第二课：贪心 学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/01/24/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%8C%E8%AF%BE%EF%BC%9A%E8%B4%AA%E5%BF%83-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第二课：贪心 学习笔记">【提高组】第二课：贪心 学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T11:13:26.000Z" title="发表于 2024-01-24 19:13:26">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/01/24/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%8C%E8%AF%BE%EF%BC%9A%E8%B4%AA%E5%BF%83-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">贪心第二课：贪心
+A：最小字典序最小字典序
+思路贪心的去选取
+例如样例 ACDBCB
+开头和结尾相比，A 小，B 大，选择 A，此时 $t$ 为 A
+字符串变成 CDBCB，B 小，C大，选 B，此时 $t$ 为 AB
+看似只要开头和结尾不同就只要选择小的哪个就 OK 了，但是如果开头和结尾相同呢？
+此时字符串为 CDBC，选择左边的 C 还是右边的 C 就值得思考了。
+如果选择左边，接下来 $t$ 最终会变成 ABCCBD ，显然不是最优的，那么就应该先选择右边的 C，最终得到的才是正确的答案
+正解如果开头和结尾不同，那么就取较小的字符
+当一个字符串的开头和结尾相同时，就要两边同时往里面看，一直看到两边不同为止。
+假设向里面看到的两个不同的位置的字符从左到右分别是 $A$ 和 $B$ ，那么如果 $A$ 小于 $B$，就先取左边的开头，如果 $B$ 小于 $A$ ，那么就取右边的结尾
+这样做的复杂度为 $O(n^2)$，而 $n$ 最大只有 $2000$，完全可以接受
+123456789101112131415161718192021222324252627282930#includ ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/01/23/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%B8%80%E8%AF%BE%EF%BC%9A%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第一课：枚举 学习笔记"><img class="post-bg" src="https://cdn.luogu.com.cn/upload/image_hosting/msixl4t1.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第一课：枚举 学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/01/23/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%B8%80%E8%AF%BE%EF%BC%9A%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第一课：枚举 学习笔记">【提高组】第一课：枚举 学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-23T11:07:11.000Z" title="发表于 2024-01-23 19:07:11">2024-01-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/2024/01/23/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%B8%80%E8%AF%BE%EF%BC%9A%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">枚举第一课：枚举
+A：dfs暴力枚举，二进制枚举按钮变色
+题意：最少操作几次是的所有格子变成同色
+以某个格子为中心的翻转最多只会有一次
+同样的一个格子不会作为中心被翻转两次
+解法暴力枚举每个格子翻或者不翻，最后检测是否全部同色，如果全部同色，看一下操作几次，更新答案
+change 函数改变 $x,y$  及周边格子的颜色
+check 函数判断格子颜色是否全部相同
+dfs 函数暴力枚举。dep 参数是搜到了哪个位置（最大16），used 参数记录翻转的次数
+不凡当前格子就去 dep + 1 位置，used 不变
+翻转当前格子就去 dep + 1 位置，used + 1
+注意回溯！因为 used 作为参数，所以不用回溯，只要回溯 mp 数组即可
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849#include &lt;bits/stdc++.h&gt;using namespace std;char mp[10][10];//5个方向int dx[] = &#1 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/1053567.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">7_DK</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://www.luogu.com.cn/user/1053567"><i class="iconfont icon-luogu"></i><span>My luogu</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Welcome to sxrのblog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/02/07/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%85%AD%E8%AF%BE%EF%BC%9A%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9DP-%E5%AD%90%E9%9B%86%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第六课：状态压缩DP/子集枚举 学习笔记"><img src="https://cdn.luogu.com.cn/upload/image_hosting/vr73g97w.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第六课：状态压缩DP/子集枚举 学习笔记"/></a><div class="content"><a class="title" href="/2024/02/07/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%85%AD%E8%AF%BE%EF%BC%9A%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9DP-%E5%AD%90%E9%9B%86%E6%9E%9A%E4%B8%BE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第六课：状态压缩DP/子集枚举 学习笔记">【提高组】第六课：状态压缩DP/子集枚举 学习笔记</a><time datetime="2024-02-07T08:17:46.000Z" title="发表于 2024-02-07 16:17:46">2024-02-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/05/P10112-GESP202312-%E5%85%AB%E7%BA%A7-%E5%A5%96%E5%93%81%E5%88%86%E9%85%8D-%E9%A2%98%E8%A7%A3/" title="P10112 [GESP202312 八级] 奖品分配 题解">P10112 [GESP202312 八级] 奖品分配 题解</a><time datetime="2024-02-05T03:10:28.000Z" title="发表于 2024-02-05 11:10:28">2024-02-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/05/P10109-GESP202312-%E5%85%AD%E7%BA%A7-%E5%B7%A5%E4%BD%9C%E6%B2%9F%E9%80%9A-%E9%A2%98%E8%A7%A3/" title="P10109 [GESP202312 六级] 工作沟通 题解">P10109 [GESP202312 六级] 工作沟通 题解</a><time datetime="2024-02-05T03:10:18.000Z" title="发表于 2024-02-05 11:10:18">2024-02-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/02/04/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%94%E8%AF%BE%EF%BC%9A%E5%8A%A8%E8%A7%84-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第五课：动规 学习笔记"><img src="https://cdn.luogu.com.cn/upload/image_hosting/q9g2dez8.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第五课：动规 学习笔记"/></a><div class="content"><a class="title" href="/2024/02/04/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E4%BA%94%E8%AF%BE%EF%BC%9A%E5%8A%A8%E8%A7%84-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第五课：动规 学习笔记">【提高组】第五课：动规 学习笔记</a><time datetime="2024-02-04T10:46:34.000Z" title="发表于 2024-02-04 18:46:34">2024-02-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/01/28/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%9B%9B%E8%AF%BE%EF%BC%9A%E4%B8%89%E5%88%86-01%E5%88%86%E6%95%B0%E8%A7%84%E5%88%92-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第四课：三分/01分数规划 学习笔记"><img src="https://cdn.luogu.com.cn/upload/image_hosting/okruvjkq.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【提高组】第四课：三分/01分数规划 学习笔记"/></a><div class="content"><a class="title" href="/2024/01/28/%E3%80%90%E6%8F%90%E9%AB%98%E7%BB%84%E3%80%91%E7%AC%AC%E5%9B%9B%E8%AF%BE%EF%BC%9A%E4%B8%89%E5%88%86-01%E5%88%86%E6%95%B0%E8%A7%84%E5%88%92-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="【提高组】第四课：三分/01分数规划 学习笔记">【提高组】第四课：三分/01分数规划 学习笔记</a><time datetime="2024-01-28T06:18:45.000Z" title="发表于 2024-01-28 14:18:45">2024-01-28</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span class="card-category-list-name">学习笔记</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%A2%98%E8%A7%A3/"><span class="card-category-list-name">题解</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E7%BB%84%E5%90%88%E6%95%B0/" style="font-size: 1.1em; color: #999">组合数</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.5em; color: #99a9bf">算法</a> <a href="/tags/%E5%AD%90%E9%9B%86%E6%9E%9A%E4%B8%BE/" style="font-size: 1.1em; color: #999">子集枚举</a> <a href="/tags/STL/" style="font-size: 1.1em; color: #999">STL</a> <a href="/tags/%E6%9E%9A%E4%B8%BE/" style="font-size: 1.3em; color: #99a1ac">枚举</a> <a href="/tags/LCA/" style="font-size: 1.1em; color: #999">LCA</a> <a href="/tags/%E6%8F%90%E9%AB%98%E7%BB%84/" style="font-size: 1.5em; color: #99a9bf">提高组</a> <a href="/tags/%E5%88%86%E7%B1%BB%E8%AE%A8%E8%AE%BA/" style="font-size: 1.1em; color: #999">分类讨论</a> <a href="/tags/%E5%8F%A6%E7%B1%BB%E8%A7%A3%E6%B3%95/" style="font-size: 1.1em; color: #999">另类解法</a> <a href="/tags/%E7%8A%B6%E5%8E%8BDP/" style="font-size: 1.1em; color: #999">状压DP</a> <a href="/tags/%E8%B4%AA%E5%BF%83/" style="font-size: 1.3em; color: #99a1ac">贪心</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">4</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">8</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-09T10:51:06.082Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By 7_DK</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => { 
+  const getCommentUrl = () => {
+    const eleGroup = document.querySelectorAll('#recent-posts .article-title')
+    let urlArray = []
+    eleGroup.forEach(i=>{
+      urlArray.push(i.getAttribute('href'))
+    })
+    return urlArray
+  }
+
+  const getCount = () => {
+    const runTwikoo = () => {
+      twikoo.getCommentsCount({
+        envId: 'https://twikoo.jiuci.top/',
+        region: 'ap-shanghai',
+        urls: getCommentUrl(),
+        includeReply: false
+      }).then(function (res) {
+        document.querySelectorAll('#recent-posts .twikoo-count').forEach((item,index) => {
+          item.textContent = res[index].count
+        })
+      }).catch(function (err) {
+        console.log(err)
+      })
+    }
+
+      if (typeof twikoo === 'object') {
+        runTwikoo()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(runTwikoo)
+      }
+  }
+
+  window.pjax ? getCount() : window.addEventListener('load', getCount)
+
+})()</script></div><canvas id="universe"></canvas><script src="/js/universe.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script id="canvas_nest" defer="defer" color="15,255,255" opacity="0.85" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="富强,民主,文明,和谐,自由,平等,公正,法治,爱国,敬业,诚信,友善" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
