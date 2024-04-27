@@ -8,14 +8,15 @@ nav:
 
 # Menu 目錄
 menu:
-  首页: / || fas fa-home
-  归档: /Archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  主站: / || fas fa-home
+  文章||fas fa-file-alt:  
+    归档: /Archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
+  友链: /links/ || fas fa-link
   关于: /About/ || fas fa-heart
 
 # Code Blocks (代碼相關)
