@@ -90,9 +90,6 @@ cover:
   default_cover: 
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
-
-# 历史上的今天
-
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
@@ -199,12 +196,12 @@ post_pagination: 1
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: true
+  enable: false
   style: flat # style: simple/flat
-  limit_day: 365 # When will it be shown
+  limit_day: 500 # When will it be shown
   position: top # position: top/bottom
-  message_prev: 距离上次更新已经
-  message_next: 天了，文章的内容可能已经过时了。
+  message_prev: It has been
+  message_next: days since the last update, the content of the article may be outdated.
 
 # Footer Settings
 # --------------------------------------
@@ -238,7 +235,7 @@ aside:
       link: https://www.luogu.com.cn/user/1053567
   card_announcement:
     enable: true
-    content: "Welcome to sxr1023のblog"
+    content: "Welcome to sxrのblog"
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -798,7 +795,7 @@ preloader:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: true
+  enable: false
   post_wordcount: true
   min2read: true
   total_wordcount: true
