@@ -41,11 +41,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /img/tupian.png
 
 # Avatar (頭像)
 avatar:
-  img: img/1053567.png
+  img: img/tupian.png
   effect: false
 
 # Disable all banner image
