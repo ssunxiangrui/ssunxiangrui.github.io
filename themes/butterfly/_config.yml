@@ -41,11 +41,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://image.jiuci.top/file/b376d13c668c562382106.jpg
 
 # Avatar (頭像)
 avatar:
-  img: img/1053567.png
+  img: https://image.jiuci.top/file/b376d13c668c562382106.jpg
   effect: false
 
 # Disable all banner image
@@ -97,9 +97,9 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  enable: true
+  subtitle: '页面没有找到'
+  background: /img/404.jpg
 
 post_meta:
   page: # Home Page
@@ -196,12 +196,12 @@ post_pagination: 1
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 365 # When will it be shown
   position: top # position: top/bottom
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 距离上次更新已经 
+  message_next:  天了，文章内容可能已经过时。
 
 # Footer Settings
 # --------------------------------------
@@ -280,8 +280,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2023/12/1 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -360,17 +360,17 @@ katex:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: false 
   hits:
     per_page: 6
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # Preload the search data when the page loads.
-  preload: false
+  preload: true
   # Show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
+  top_n_per_article: 10
   # Unescape html strings to the readable one.
   unescape: false
   CDN:
@@ -758,9 +758,10 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
+  loop: true
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -770,9 +771,16 @@ subtitle:
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: true
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 急雨之浩瀚，舞动之麒麟。
+    - 手握日月摘星辰，世上无我这般人。
+    - 当时他只留下一句话，天阻止破天，地阻止裂地。人挡杀人，神挡杀神。
+    - 当差距达到一定程度的时候，就已经不是差距，而是，天堑！
+    - 我们不期待奇迹，但要给奇迹一个机会。
+    - 荣耀，不只是胜利能够捍卫，鲜血也可以。
+    - 有你在又何妨与世界为敌？
 
 # Loading Animation (加載動畫)
 preloader:
@@ -787,7 +795,7 @@ preloader:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -883,10 +891,10 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -937,12 +945,15 @@ inject:
           z-index: 1;
         }
       </style>'
+    - <link rel="stylesheet" href="/css/css.css">
     - <link rel="stylesheet" href="/css/ziti.css">
     - <link rel="stylesheet" href="/css/font.css"> # 引入刚刚新建的css文件
+    
   bottom:
     - '<canvas id="universe"></canvas>' # 背景宇宙星光canvas
     - '<script src="/js/universe.js"></script>' # 背景宇宙星光js文件
     - '<script src="/css/link.js"></script>' # 背景宇宙星光js文件
+    - <script src="/js/nav.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
@@ -965,6 +976,9 @@ CDN:
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format:
+
+
+
 
   option:
     # abcjs_basic_js:
