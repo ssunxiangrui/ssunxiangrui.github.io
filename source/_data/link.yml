@@ -1,0 +1,28 @@
+- class_name: 网站搭建
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: A Simple and Card UI Design theme for Hexo
+
+- class_name: 知名博主
+  link_list:
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
+      descr: 分享设计与科技生活
+
+- class_name: 好友
+  link_list:
+    - name: wsq127
+      link: https://blog.wsq127.top/
+      avatar: https://cdn.luogu.com.cn/upload/image_hosting/k9pgunlv.png
+      descr: 突破了瓶颈，发现还有瓶盖qwq
