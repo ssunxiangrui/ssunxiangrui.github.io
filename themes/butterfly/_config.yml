@@ -482,9 +482,9 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.jiuci.top/
+  envId: https://127.0.0.1:8080
   region: ap-shanghai
-  visitor: true
+  visitor: false
   option:
 
 # Giscus
@@ -950,11 +950,11 @@ inject:
     - <link rel="stylesheet" href="/css/font.css"> # 引入刚刚新建的css文件
     
   bottom:
-    - <script src="/js/jquery.js"></script>
+    - <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     - '<canvas id="universe"></canvas>' # 背景宇宙星光canvas
     - '<script src="/js/universe.js"></script>' # 背景宇宙星光js文件
     - '<script src="/css/link.js"></script>' # 背景宇宙星光js文件
-    - <script src="/js/nav.js"></script>
+    - <script src="/js/nav.js"></script>''
     # - <script src="xxxx"></script>
 
 # CDN

@@ -78,6 +78,62 @@
     animation: gradient 2s ease infinite;
     background-size: 200%;
 }
+/*
+2022.10.4更新：
+根据我发现的没有自适应，间距不合理问题进行调整，如果用了这个的朋友们建议改一改
+*/
+#page-name::before{
+    font-size:18px;
+    position: absolute;
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    color:white!important;
+    top:0;
+    left:0;
+    content:'回到顶部';
+    background-color: var(--lyx-theme);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    opacity: 0;
+    box-shadow: 0 0 3px var(--lyx-theme);
+    line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
+}
+#page-name:hover:before{
+    opacity: 1;
+}
+@media screen and (max-width:900px){
+    #page-name,#menus{
+      display:none!important;
+    }
+}
+
+#name-container{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+#name-container:hover{
+    scale:1.03
+}
+#page-name{
+    position: relative;
+    padding:10px 30px/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+}
+#nav{
+    padding: 0 20px;
+}
+
+
+
+
+
+
 /* Twikoo评论系统样式 */
 /* 设置文字内容 :nth-child(1)的作用是选择第几个 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
@@ -134,32 +190,31 @@
 }
 
 /* 声名部分变量 */
-
 :root {
     --cxl2020mc-radius: 7px;
     --cxl2020mc-card-border-width: 1px;
-}
-
+  }
+  
   /* 浅色模式颜色 */
-[data-theme=light] {
+  [data-theme=light] {
     --cxl2020mc-border-color: #e3e8f7;
     --cxl2020mc-card-bg: #fff;
     --cxl2020mc-card-border: #e3e8f7;
     --style-border-always: 1px solid var(--cxl2020mc-card-border);
     --cxl2020mc-blue: #425AEF;
-}
-
+  }
+  
   /* 深色模式颜色 */
-[data-theme=dark] {
+  [data-theme=dark] {
     --cxl2020mc-border-color: #42444a;
     --cxl2020mc-card-bg: #1d1b26;
     --cxl2020mc-card-border: #42444a;
     --style-border-always: 1px solid var(--cxl2020mc-card-border);
     --cxl2020mc-blue: #0084FF;
-}
-
+  }
+  
   /* 评论区评论大框 */
-.twikoo .tk-comments-container>.tk-comment {
+  .twikoo .tk-comments-container>.tk-comment {
     /* 内边距 */
     padding: 1rem;
     /* 圆角 */
@@ -168,32 +223,32 @@
     background: var(--cxl2020mc-card-bg);
     /* 变动动画时长 */
     transition: .3s;
-}
-
+  }
+  
   /* 浅色模式评论区评论大框 */
-[data-theme=light] .twikoo .tk-comments-container>.tk-comment {
+  [data-theme=light] .twikoo .tk-comments-container>.tk-comment {
     /* 阴影 */
     box-shadow: var(--card-box-shadow);
-}
-
+  }
+  
   /* 浅色模式评论区评论大框阴影悬浮加深 */
-[data-theme=light] .twikoo .tk-comments-container>.tk-comment:hover {
+  [data-theme=light] .twikoo .tk-comments-container>.tk-comment:hover {
     /* 阴影（浅色模式突出层次感） */
     box-shadow: var(--card-hover-box-shadow);
-}
-
+  }
+  
   /* 黑暗模式评论区评论大框 */
-[data-theme=dark] .twikoo .tk-comments-container>.tk-comment {
+  [data-theme=dark] .twikoo .tk-comments-container>.tk-comment {
     /* 边框样式 */
     border-style: solid;
     /* 边框宽度 */
     border-width: var(--cxl2020mc-card-border-width);
     /* 边框颜色 */
     border-color: var(--cxl2020mc-card-border);
-}
-
+  }
+  
   /* 设备信息 */
-.twikoo .tk-extra {
+  .twikoo .tk-extra {
     /* 圆角 */
     border-radius: var(--cxl2020mc-radius);
     /* 背景颜色 */
@@ -204,111 +259,63 @@
     margin-bottom: 1rem;
     /* 变动动画时长 */
     transition: .3s;
-}
-
+  }
+  
   /* 浅色模式设备信息 */
-[data-theme=light] .twikoo .tk-extra {
+  [data-theme=light] .twikoo .tk-extra {
     /* 阴影 */
     box-shadow: var(--card-box-shadow);
-}
-
+  }
+  
   /* 浅色模式设备信息阴影悬浮加深 */
-[data-theme=light] .twikoo .tk-extra:hover {
+  [data-theme=light] .twikoo .tk-extra:hover {
     /* 阴影 */
     box-shadow: var(--card-hover-box-shadow);
-}
-
+  }
+  
   /* 黑暗模式设备信息 */
-[data-theme=dark] .twikoo .tk-extra {
+  [data-theme=dark] .twikoo .tk-extra {
     /* 边框样式 */
     border-style: solid;
     /* 边框宽度 */
     border-width: var(--cxl2020mc-card-border-width);
     /* 边框颜色 */
     border-color: var(--cxl2020mc-card-border);
-}
-
+  }
+  
   /* 加载更多按钮 */
-.twikoo .tk-expand {
+  .twikoo .tk-expand {
     /* 圆角 */
     border-radius: var(--cxl2020mc-radius);
-}
+  }
+  
   /* 浅色模式加载更多按钮 */
-[data-theme=light] .twikoo .tk-expand {
+  [data-theme=light] .twikoo .tk-expand {
     /* 阴影 */
     box-shadow: var(--card-box-shadow);
-}
-
+  }
+  
   /* 浅色模式加载更多按钮（鼠标悬浮时） */
-[data-theme=light] .twikoo .tk-expand:hover {
+  [data-theme=light] .twikoo .tk-expand:hover {
     /* 阴影 */
     box-shadow: var(--card-hover-box-shadow);
     /* 背景颜色 */
     background-color: var(--btn-bg);
-}
-
+  }
+  
   /* 黑暗模式加载更多按钮（鼠标悬浮时） */
-[data-theme=dark] .twikoo .tk-expand:hover {
+  [data-theme=dark] .twikoo .tk-expand:hover {
     /* 背景颜色 */
     background-color: var(--cxl2020mc-blue);
-}
-
+  }
+  
   /* 黑暗模式加载更多按钮 */
-[data-theme=dark] .twikoo .tk-expand {
+  [data-theme=dark] .twikoo .tk-expand {
     /* 边框样式 */
     border-style: solid;
     /* 边框宽度 */
     border-width: var(--cxl2020mc-card-border-width);
     /* 边框颜色 */
     border-color: var(--cxl2020mc-card-border);
-}
-/*
-2022.10.4更新：
-根据我发现的没有自适应，间距不合理问题进行调整，如果用了这个的朋友们建议改一改
-*/
-#page-name::before{
-    font-size:18px;
-    position: absolute;
-    width:100%;
-    height:100%;
-    border-radius: 8px;
-    color:white!important;
-    top:0;
-    left:0;
-    content:'回到顶部';
-    background-color: var(--lyx-theme);
-    transition: all .3s;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    opacity: 0;
-    box-shadow: 0 0 3px var(--lyx-theme);
-    line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
-}
-#page-name:hover:before{
-    opacity: 1;
-}
-@media screen and (max-width:900px){
-    #page-name,#menus{
-      display:none!important;
-    }
-}
-
-#name-container{
-    transition: all .3s;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-}
-#name-container:hover{
-    scale:1.03
-}
-#page-name{
-    position: relative;
-    padding:10px 30px/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
-}
-#nav{
-    padding: 0 20px;
-}
+  }
+  
