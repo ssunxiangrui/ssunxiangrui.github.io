@@ -91,29 +91,7 @@ cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 
-electric_clock:
-  priority: 5
-  enable: true
-  enable_page: all
-  layout:
-    type: class
-    name: sticky_layout
-    index: 0
-  temple_html: '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img id="card-clock-loading" src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-clock/clock/images/weather/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading" class="entered loading"></div></div></div></div></div>'
-
-
 # 历史上的今天
-history_calendar:
-  priority: 4
-  enable: true
-  enable_page: all
-  layout:
-    type: id
-    name: history_calendar
-    index: 0
-  temple_html: '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>'
-
-
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
