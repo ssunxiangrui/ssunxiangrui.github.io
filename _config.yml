@@ -73,6 +73,10 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+lazyload:
+  enable: true
+  loadingImg: https://image.jiuci.top/file/9ae6b07e283bdf59e7c58.gif
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
