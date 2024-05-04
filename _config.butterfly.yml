@@ -41,11 +41,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/tupian.png
+favicon: https://image.jiuci.top/file/b376d13c668c562382106.jpg
 
 # Avatar (頭像)
 avatar:
-  img: img/tupian.png
+  img: https://image.jiuci.top/file/b376d13c668c562382106.jpg
   effect: false
 
 # Disable all banner image
