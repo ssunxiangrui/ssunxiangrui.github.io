@@ -16,9 +16,10 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
+  训练计划: /practise/ || fa fa-tasks
   说说: /talk/ || fas fa-broadcast-tower
-  关于: /About/ || fas fa-heart
+  友链: /link/ || fas fa-link
+  关于: /About/ || fa fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
