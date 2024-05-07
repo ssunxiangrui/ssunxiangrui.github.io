@@ -483,7 +483,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://127.0.0.1:8080
+  envId: https://twikoo-pearl-seven.vercel.app/
   region: ap-shanghai
   visitor: false
   option:
