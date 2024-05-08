@@ -84,7 +84,7 @@ meta_generator: true
 
 
 butterfly_article_double_row:
-  enable: true
+  enable: false
 
 
 
