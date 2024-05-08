@@ -16,7 +16,6 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  训练计划: /practise/ || fa fa-tasks
   说说: /talk/ || fas fa-broadcast-tower
   友链: /link/ || fas fa-link
   关于: /About/ || fa fa-heart
