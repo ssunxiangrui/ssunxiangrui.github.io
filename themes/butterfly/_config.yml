@@ -8,7 +8,7 @@ nav:
 
 # Menu 目錄
 menu:
-  主站: / || fas fa-home
+  首页: / || fas fa-home
   文章 || fas fa-file-alt:
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
@@ -681,18 +681,18 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: true
-  mobile: true
+  enable: false
+  mobile: false
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   color: '15,255,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.85 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
-  mobile: true # false 手機端不顯示 true 手機端顯示
+  mobile: false # false 手機端不顯示 true 手機端顯示
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
