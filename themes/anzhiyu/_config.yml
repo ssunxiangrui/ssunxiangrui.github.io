@@ -360,7 +360,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-git-main-ssunxiangruis-projects.vercel.app/
+  envId: twikoo-psi-three.vercel.app
   region: ap-shanghai
   visitor: false
   option:
