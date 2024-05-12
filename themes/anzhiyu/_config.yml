@@ -1095,7 +1095,7 @@ LA:
 diytitle:
   enable: true
   leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
-  backTitle: ♪(^∇^*)欢迎肥来！
+  backTitle: ♪(^∇^*)欢迎回来！
 
 # 留言弹幕配置
 comment_barrage_config:
