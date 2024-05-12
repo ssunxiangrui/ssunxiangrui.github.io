@@ -74,7 +74,7 @@ category_map:
 tag_map:
 
 lazyload:
-  enable: true
+  enable: false
   loadingImg: https://image.jiuci.top/file/9ae6b07e283bdf59e7c58.gif
 
 # Metadata elements
