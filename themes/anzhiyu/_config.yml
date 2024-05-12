@@ -30,7 +30,7 @@ nav:
       item:
         - name: 博客
           link: https://blog.anheyu.com/
-          icon: /img/favicon.ico
+          icon: /img/favicon.jpg
     - title: 项目
       item:
         - name: 安知鱼图床
@@ -136,11 +136,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: /img/favicon.jpg
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: /img/favicon.jpg
   effect: false
 
 # Disable all banner image
