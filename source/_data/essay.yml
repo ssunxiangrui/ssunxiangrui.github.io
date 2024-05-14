@@ -1,0 +1,11 @@
+- title: 即刻短文
+  subTitle: sxr1023的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://bu.dusays.com/2023/06/15/648af1d5e6f39.jpeg
+  essay_list:
+    - content: 正式使用鱼少的anzhiyu主题！
+      date: 2024/5/10

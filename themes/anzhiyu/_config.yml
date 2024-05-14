@@ -1,8 +1,8 @@
 menu:
   文章:
-    文档: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
+    文档: /archives/ || anzhiyu-icon-box-archive
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
