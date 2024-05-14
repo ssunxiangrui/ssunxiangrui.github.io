@@ -14,6 +14,16 @@
 - class_name: 推荐博客
   flink_style: flexcard
   link_list:
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+      siteshot: https://image.jiuci.top/file/916f1c2fc3afcc3fbf34b.png
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://image.jiuci.top/file/3c4920feb195cafd7a9af.png
+      descr: 分享设计与科技生活
+      siteshot: https://image.jiuci.top/file/8265aefd0fc44fabb324c.png
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
