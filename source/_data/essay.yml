@@ -5,7 +5,7 @@
   buttonLink: /about/
   limit: 30
   home_essay: true
-  top_background: /img/favicon.jpg
+  top_background: /img/background.jpg
   essay_list:
     - content: 正式使用鱼少的anzhiyu主题！
       date: 2024/5/10
