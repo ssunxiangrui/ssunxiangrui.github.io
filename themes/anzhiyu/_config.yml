@@ -90,12 +90,13 @@ author_status:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
   tags:
-    # - 前端
-    # - Hexo
+    - 提高组
+    - 算法
+    - 测试
 
 # Docsearch
 # Apply and Docs: see https://docsearch.algolia.com/

@@ -123,6 +123,29 @@ history_calendar:
 
 
 
+
+
+# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+algolia:
+  appId: "LCZWEZ16KD"
+  apiKey: "4cf7e7f4e1dd1a6aa184a232bdcf7094"
+  adminApiKey: "4947c3ec08e1ea4499a229fc2c3c5853"
+  chunkSize: 5000
+  indexName: "hexo"
+  fields:
+    - content:strip:truncate,0,200
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+
+
+
+
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
