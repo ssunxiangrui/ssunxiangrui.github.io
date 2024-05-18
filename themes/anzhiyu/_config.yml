@@ -1036,8 +1036,8 @@ home_top:
   enable: true # 开关
   timemode: date #date/updated
   title: 急雨之浩瀚
-  subTitle: 舞动之麒麟
-  siteText: anheyu.com
+  subTitle: 舞动之麒麟。
+  siteText: jiuci.top
   category:
     - name: 笔记
       path: /categories/学习笔记/
@@ -1062,7 +1062,7 @@ home_top:
   banner:
     tips: 新品主题
     title: Theme-AnZhiYu
-    image: https://img02.anheyu.com/adminuploads/1/2023/03/27/64215d46a1ca6.webp
+    image: https://image.jiuci.top/file/c8a7796691553e41b58fc.png
     link: https://docs.anheyu.com/
 
 # 朋友圈配置
@@ -1206,7 +1206,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png
 
 # 动效
