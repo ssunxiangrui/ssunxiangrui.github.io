@@ -411,7 +411,7 @@ crisp:
 # --------------------------------------
 footer:
   owner:
-    enable: true
+    enable: false
     since: 2023
   custom_text:
   runtime:
@@ -800,7 +800,7 @@ aside:
     enable: false
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
+    enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
     backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
   card_recent_post:
@@ -837,15 +837,15 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 12/1/2023 00:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1099,15 +1099,15 @@ diytitle:
 
 # 留言弹幕配置
 comment_barrage_config:
-  enable: false
+  enable: true
   # 同时最多显示弹幕数
   maxBarrage: 1
   # 弹幕显示间隔时间ms
-  barrageTime: 4000
+  barrageTime: 8000
   # token，在控制台中获取
-  accessToken: ""
+  accessToken: "c8b9011d5f1d400c9cbf1ff4633fab1f"
   # 博主邮箱md5值
-  mailMd5: ""
+  mailMd5: "4aabc16b395ae18c8528430a88c52342"
 
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
