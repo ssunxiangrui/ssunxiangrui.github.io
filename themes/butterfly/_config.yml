@@ -482,7 +482,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-pearl-seven.vercel.app/
+  envId: https://twikoo.jiuci.top/
   region: ap-shanghai
   visitor: false
   option:
