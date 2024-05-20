@@ -129,6 +129,12 @@ aplayer:
   asset_inject: false
 
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+
 
 
 
