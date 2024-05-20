@@ -486,11 +486,11 @@ footer:
       - title: 主题
         links:
           - title: 文档
-            link: /docs/
+            link: https://docs.anheyu.com/
           - title: 源码
             link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
           - title: 更新日志
-            link: /update/
+            link: https://blog.anheyu.com/update/
       - title: 导航
         links:
           - title: 即刻短文
@@ -499,6 +499,14 @@ footer:
             link: /fcircle/
           - title: 留言板
             link: /comments/
+      - title: 协议
+        links:
+          - title: 隐私协议
+            link: /privacy/
+          - title: Cookies
+            link: /cookies/
+          - title: 版权协议
+            link: /copyright/
   footerBar:
     enable: true
     authorLink: /
