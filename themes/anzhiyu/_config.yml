@@ -467,7 +467,7 @@ footer:
         icon: anzhiyu-icon-bilibili
       - title: 抖音
         link: https://v.douyin.com/DwCpMEy/
-        icon: anzhiyu-icon-tiktok
+        icon: anzhiyu-icon-skype
       - title: CC
         link: /copyright
         icon: anzhiyu-icon-copyright-line
