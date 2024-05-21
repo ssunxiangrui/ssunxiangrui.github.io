@@ -463,20 +463,20 @@ footer:
         icon: anzhiyu-icon-rss
     right:
       - title: Github
-        link: https://github.com/ssunxiangrui
+        link: https://github.com/ssunxiangrui/
         icon: anzhiyu-icon-github
       - title: Bilibili
-        link: https://space.bilibili.com/294611220
+        link: https://space.bilibili.com/294611220/
         icon: anzhiyu-icon-bilibili
-      - title: 抖音
-        link: https://v.douyin.com/DwCpMEy/
-        icon: anzhiyu-icon-skype
+      - title: CCW
+        link: https://www.ccw.site/student/195037000/
+        icon: anzhiyu-icon-play+
       - title: CC
         link: /copyright
         icon: anzhiyu-icon-copyright-line
   list:
     enable: true
-    randomFriends: 3`
+    randomFriends: 3
     project:
       - title: 服务
         links:
