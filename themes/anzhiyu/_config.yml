@@ -433,6 +433,9 @@ footer:
       - link: https://blog.anheyu.com/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
+      - link: https://icp.gov.moe/?keyword=20240701/
+        shields: https://hydro.ac/file/35233/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-05-21%20214932.png
+        message: 本站已在萌进行备案
       - link: https://www.cloudflare-cn.com/
         shields: https://img.shields.io/badge/CDN-cloudflare-orange?style=flat&logo=cloudflare
         message: 本站使用Cloudflare为静态资源提供CDN加速
