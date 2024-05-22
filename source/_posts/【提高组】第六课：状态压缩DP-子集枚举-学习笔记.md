@@ -8,6 +8,7 @@ tags:
   - 算法
   - 状压DP
   - 子集枚举
+
 title: 【提高组】第六课：状态压缩DP/子集枚举 学习笔记
 updated: '2024-05-02T09:39:22.575+08:00'
 cover: /img/cover/7段第六课.png
@@ -16,13 +17,13 @@ cover: /img/cover/7段第六课.png
 
 [第六课：状态压缩DP/子集枚举](https://www.517coding.com/contests/1145)
 
-## 前置知识
+{% folding 前置位运算知识 %}
 
-与：同为 1 ，则为 1，否则为0。即只要有一位是 0，结果就是0
++ 与：同为 1 ，则为 1，否则为0。即只要有一位是 0，结果就是0
 
-或：同为 0 ，则为 0，否则为1。即只要有一位是 1，结果就是1
++ 或：同为 0 ，则为 0，否则为1。即只要有一位是 1，结果就是1
 
-异或：不同则为 1，相同则为 0
++ 异或：不同则为 1，相同则为 0
 
 ---
 
@@ -30,9 +31,11 @@ cover: /img/cover/7段第六课.png
 
 已知一个状态压缩的数 $i$，有如下操作：
 
-求 $i$ 的第 $j$ 位是否为 $1$ ：`i&(1<<j)!=0` （**注意：是 !=0，而不是==1**）
+1. 求 $i$ 的第 $j$ 位是否为 $1$ ：`i&(1<<j)!=0` （**注意：是 !=0，而不是==1**）
 
-把 $i$ 的第 $j$ 位修改为 $1$：`i|=1<<j`
+2. 把 $i$ 的第 $j$ 位修改为 $1$：`i|=1<<j`
+
+{% endfolding %}
 
 ## A：环游世界
 
@@ -170,6 +173,87 @@ int main() {
   return 0;
 }
 ```
+
+## C：开门迷宫
+
+[开门迷宫](https://www.517coding.com/contests/1145/problem/C)
+
+广搜 + 状压DP即可
+
+```cpp
+#include <iostream>
+#include <queue>
+#include <cstring>
+using namespace std;
+
+const int N = 60;
+
+int n,m,p,k,s;
+int x1,y1,x2,y2,x;
+int mp1[N][N][N][N], mp2[N][N],vis[N][N][1<<11];
+
+int dx[]= {0,0,1,-1};
+int dy[]= {1,-1,0,0};
+
+struct node {
+  int x,y,key,step;
+};
+
+queue<node>q;
+int bfs() {
+  q.push({0,0,0,0});
+  vis[0][0][0] = 1;
+  while(!q.empty()) {
+    node f = q.front(); q.pop();
+    if(f.x == n - 1 && f.y == m - 1) return f.step;
+    if(mp2[f.x][f.y] >= 1) f.key += mp2[f.x][f.y] - (mp2[f.x][f.y] & f.key);
+    for (int i = 0; i < 4; i++) {
+      int ax = f.x + dx[i];
+      int ay = f.y + dy[i];
+      if(ax >= 0 && ax < n && ay >= 0 && ay < m) {
+        int tmp = mp1[f.x][f.y][ax][ay];
+        if(tmp == -1 || (tmp>= 1 && (f.key & (1 << tmp)))) {
+          if(!vis[ax][ay][f.key]) {
+            q.push({ax,ay,f.key,f.step+1});
+            vis[ax][ay][f.key]=1;
+          }
+        }
+      }
+    }
+  }
+  return -1;
+}
+int main() {
+  scanf("%d%d%d%d", &n, &m, &p, &k);
+  memset(mp1, -1, sizeof(mp1));
+  memset(mp2, 0, sizeof(mp2));
+  for (int i = 1; i <= k; i++){
+    scanf("%d%d%d%d%d", &x1, &y1, &x2, &y2, &x);
+    mp1[x1 - 1][y1 - 1][x2 - 1][y2 - 1] = mp1[x2 - 1][y2 - 1][x1 - 1][y1 - 1]=x;
+  }
+  scanf("%d", &s);
+  for (int i = 1; i <= s; i++) {
+    scanf("%d%d%d", &x1, &y1, &x);
+    if(x != 0) mp2[x1 - 1][y1  - 1] += 1 << x;
+  }
+  int ans = bfs();
+  printf("%d\n", ans);
+  return 0;
+}
+```
+
+
+
+## D：简单环计数
+
+[简单环计数](https://www.517coding.com/contests/1145/problem/D)
+
+{% folding 前置知识 %}
+
++ 简单无向图：就是没有重边和自己连向自己的边
++ 简单环：顶点和边不重复的环
+
+{% endfolding %}
 
 ## E：回文子序列删除
 
