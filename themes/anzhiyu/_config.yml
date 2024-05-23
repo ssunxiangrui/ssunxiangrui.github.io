@@ -455,9 +455,9 @@ footer:
       - title: QQ
         link: https://user.qzone.qq.com/3772061938
         icon: anzhiyu-icon-qq
-      - title: facebook
-        link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
-        icon: anzhiyu-icon-facebook1
+      - title: 微博
+        link: https://weibo.com/sxr1023
+        icon: anzhiyu-icon-weibo
       - title: RSS
         link: atom.xml
         icon: anzhiyu-icon-rss
