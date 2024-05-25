@@ -243,18 +243,6 @@ int main() {
 ```
 
 
-
-## D：简单环计数
-
-[简单环计数](https://www.517coding.com/contests/1145/problem/D)
-
-{% folding 前置知识 %}
-
-+ 简单无向图：就是没有重边和自己连向自己的边
-+ 简单环：顶点和边不重复的环
-
-{% endfolding %}
-
 ## E：回文子序列删除
 
 [回文子序列删除](https://www.517coding.com/contests/1145/problem/E)
