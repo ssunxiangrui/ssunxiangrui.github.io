@@ -7,6 +7,8 @@ tags:
 categories: 植物大战僵尸杂交版
 abbrlink: e4edbd12
 date: 2024-08-30 20:54:02
+cover: /img/404.jpg
+top: true
 ---
 
 ## 前言
